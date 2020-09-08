@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial" parallel="false">
+    <test name="testngTest">
+    <parameter name="username" value="admin" />
+    <parameter name="password" value="password" />
+        <classes>
+            <class name="TestNGTest.Activity6_TestNG" />
+            
+        </classes>
+    </test>
+</suite>
